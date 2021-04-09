@@ -14,6 +14,11 @@ import R013_ArrowFunction from "./R013_ArrowFunction";
 import R014_ForEach from "./R014_ForEach";
 import R015_Map from "./R015_Map";
 import R016_JQuery from "./R016_JQuery";
+import R017_Props from "./R017_Props";
+import R018_PropsDatatype from "./R018_PropsDatatype";
+import R019_PropsDatatype from "./R019_PropsDatatype";
+import R020_PropsObjVal from "./R020_PropsObjVal";
+
 
 /*
 <R003_ImportComponent></R003_ImportComponent>
@@ -28,14 +33,26 @@ import R016_JQuery from "./R016_JQuery";
 <R012_ClassPrototype></R012_ClassPrototype>
 <R013_ArrowFunction></R013_ArrowFunction>
 <R014_ForEach></R014_ForEach>
- <R015_Map></R015_Map>
+<R015_Map></R015_Map>
+<R016_JQuery></R016_JQuery>
+<R017_Props props_val="THIS IS PROPS"></R017_Props>
+ <R018_PropsDatatype
+          String ="react"
+          Number ={200}
+          Boolean={1==1}
+          Array={[0,1,8]}
+          ObjectJSON = {{react:"리액트",twohundred:"200"}}
+          Function={console.log("FunctioProps:function!")}
+          ></R018_PropsDatatype>
+  <R019_PropsDatatype BooleanTrueFalse={false}></R019_PropsDatatype>
+          <R019_PropsDatatype BooleanTrueFalse></R019_PropsDatatype>
 */
 
 function App(){
   return (
       <div>
           <h1>Start React 200!</h1>
-          <R016_JQuery></R016_JQuery>
+          <R020_PropsObjVal OjectJSON={{react:"리액트",twohundred:"200"}}></R020_PropsObjVal>
       </div>
   );
 }
