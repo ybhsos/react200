@@ -10,6 +10,10 @@ import R009_Ex6 from "./R009_Ex6";
 import R010_Variable from "./R010_Variable";
 import R011_SpreadOperator from "./R011_SpreadOperator";
 import R012_ClassPrototype from "./R012_ClassPrototype";
+import R013_ArrowFunction from "./R013_ArrowFunction";
+import R014_ForEach from "./R014_ForEach";
+import R015_Map from "./R015_Map";
+import R016_JQuery from "./R016_JQuery";
 
 /*
 <R003_ImportComponent></R003_ImportComponent>
@@ -21,13 +25,17 @@ import R012_ClassPrototype from "./R012_ClassPrototype";
 <R009_Ex6></R009_Ex6>
 <R010_Variable></R010_Variable>
 <R011_SpreadOperator></R011_SpreadOperator>
+<R012_ClassPrototype></R012_ClassPrototype>
+<R013_ArrowFunction></R013_ArrowFunction>
+<R014_ForEach></R014_ForEach>
+ <R015_Map></R015_Map>
 */
 
 function App(){
   return (
       <div>
           <h1>Start React 200!</h1>
-            <R012_ClassPrototype></R012_ClassPrototype>
+          <R016_JQuery></R016_JQuery>
       </div>
   );
 }
