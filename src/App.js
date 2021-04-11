@@ -28,6 +28,12 @@ import R027_ComponentClass from "./R027_ComponentClass";
 import R028_PureComponentClass from "./R028_PureComponentClass";
 import R029_ShallowEqual from "./R029_ShallowEqual";
 import R030_FunctionComponent from "./R030_FunctionComponent";
+import R031_ReactHook from "./R031_ReactHook";
+import R032_Fragments from "./R032_Fragments";
+import R033_ReturnMap from "./R033_ReturnMap";
+import R034_ReactstrapAlerts from "./R034_ReactstrapAlerts";
+import 'bootstrap/dist/css/bootstrap.css';
+import R035_ReactstrapBadges from "./R035_ReactstrapBadges";
 /*
 <R003_ImportComponent></R003_ImportComponent>
 <R004_LifecycleEx></R004_LifecycleEx>
@@ -63,9 +69,13 @@ import R030_FunctionComponent from "./R030_FunctionComponent";
            <R024_ReactState reactString={"react"}></R024_ReactState>
              <R025_SetState></R025_SetState>
 <R026_forceUpdate></R026_forceUpdate>
-  <R027_ComponentClass></R027_ComponentClass>
+<R027_ComponentClass></R027_ComponentClass>
 <R028_PureComponentClass></R028_PureComponentClass>
- <R029_ShallowEqual></R029_ShallowEqual>
+<R029_ShallowEqual></R029_ShallowEqual>
+<R030_FunctionComponent contents ="[THIS IS FunctionComponent]"></R030_FunctionComponent>
+ <R031_ReactHook></R031_ReactHook>
+ <R032_Fragments></R032_Fragments>
+  <R033_ReturnMap></R033_ReturnMap>
 */
 
 function App(){
@@ -73,7 +83,7 @@ function App(){
       <div>
           <h1>Start React 200!</h1>
           <p>CSS 적용하기</p>
-          <R030_FunctionComponent contents ="[THIS IS FunctionComponent]"></R030_FunctionComponent>
+          <R035_ReactstrapBadges></R035_ReactstrapBadges>
       </div>
   );
 }
