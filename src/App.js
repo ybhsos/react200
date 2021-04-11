@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+//import './App.css';
 import R003_ImportComponent from "./R003_ImportComponent";
 import R004_LifecycleEx from "./R004_LifecycleEx";
 import R005_LifecycleEx from "./R005_LifecycleEx";
@@ -34,6 +34,21 @@ import R033_ReturnMap from "./R033_ReturnMap";
 import R034_ReactstrapAlerts from "./R034_ReactstrapAlerts";
 import 'bootstrap/dist/css/bootstrap.css';
 import R035_ReactstrapBadges from "./R035_ReactstrapBadges";
+import R036_ReactstraoBreadcrumbs from "./R036_ReactstraoBreadcrumbs";
+import R037_ReactstrapDropdown from "./R037_ReactstrapDropdown";
+import R038_ReactstrapButtonGroup from "./R038_ReactstrapButtonGroup";
+import R039_ReactstrapBottons from "./R039_ReactstrapBottons";
+import R040_ReactstrapCard from "./R040_ReactstrapCard";
+import R041_ReactstrapCarousel from "./R041_ReactstrapCarousel";
+import R042_ReactstrapCollapse from "./R042_ReactstrapCollapse";
+import R043_ReactstrapFade from "./R043_ReactstrapFade";
+import R044_ReactstrapForm from "./R044_ReactstrapForm";
+import R045_ReactstrapInputGroup from "./R045_ReactstrapInputGroup";
+import R046_ReactstrapDumbotron from "./R046_ReactstrapDumbotron";
+import R047_ReactstraoListGroup from "./R047_ReactstraoListGroup";
+import R048_ReactsstrapModel from "./R048_ReactsstrapModel";
+import R049_ReactstrapModal from "./R049_ReactstrapModal";
+import R050_ReactstrapModal from "./R050_ReactstrapModal";
 /*
 <R003_ImportComponent></R003_ImportComponent>
 <R004_LifecycleEx></R004_LifecycleEx>
@@ -63,19 +78,34 @@ import R035_ReactstrapBadges from "./R035_ReactstrapBadges";
 <R020_PropsObjVal OjectJSON={{react:"리액트",twohundred:"200"}}></R020_PropsObjVal>
 <R021_PropsRequired ReactNumber={200}></R021_PropsRequired>
 <R022_PropsDefault ReactNumber ={200}></R022_PropsDefault>
-  <R023_PropsNode>
-              <span>node from App.js</span>
-          </R023_PropsNode>
-           <R024_ReactState reactString={"react"}></R024_ReactState>
-             <R025_SetState></R025_SetState>
+<R023_PropsNode>
+<span>node from App.js</span>
+</R023_PropsNode>
+<R024_ReactState reactString={"react"}></R024_ReactState>
+<R025_SetState></R025_SetState>
 <R026_forceUpdate></R026_forceUpdate>
 <R027_ComponentClass></R027_ComponentClass>
 <R028_PureComponentClass></R028_PureComponentClass>
 <R029_ShallowEqual></R029_ShallowEqual>
 <R030_FunctionComponent contents ="[THIS IS FunctionComponent]"></R030_FunctionComponent>
- <R031_ReactHook></R031_ReactHook>
- <R032_Fragments></R032_Fragments>
-  <R033_ReturnMap></R033_ReturnMap>
+<R031_ReactHook></R031_ReactHook>
+<R032_Fragments></R032_Fragments>
+<R033_ReturnMap></R033_ReturnMap>
+<R035_ReactstrapBadges></R035_ReactstrapBadges>
+<R036_ReactstraoBreadcrumbs></R036_ReactstraoBreadcrumbs>
+<R037_ReactstrapDropdown></R037_ReactstrapDropdown>
+<R038_ReactstrapButtonGroup></R038_ReactstrapButtonGroup>
+<R039_ReactstrapBottons></R039_ReactstrapBottons>
+<R040_ReactstrapCard></R040_ReactstrapCard>
+<R041_ReactstrapCarousel></R041_ReactstrapCarousel>
+<R042_ReactstrapCollapse></R042_ReactstrapCollapse>
+<R043_ReactstrapFade></R043_ReactstrapFade>
+<R044_ReactstrapForm></R044_ReactstrapForm>
+<R045_ReactstrapInputGroup></R045_ReactstrapInputGroup>
+<R046_ReactstrapDumbotron></R046_ReactstrapDumbotron>
+<R047_ReactstraoListGroup></R047_ReactstraoListGroup>
+<R048_ReactsstrapModel></R048_ReactsstrapModel>
+<R049_ReactstrapModal></R049_ReactstrapModal>
 */
 
 function App(){
@@ -83,7 +113,7 @@ function App(){
       <div>
           <h1>Start React 200!</h1>
           <p>CSS 적용하기</p>
-          <R035_ReactstrapBadges></R035_ReactstrapBadges>
+          <R050_ReactstrapModal></R050_ReactstrapModal>
       </div>
   );
 }
