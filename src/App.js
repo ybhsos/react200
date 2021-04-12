@@ -49,6 +49,21 @@ import R047_ReactstraoListGroup from "./R047_ReactstraoListGroup";
 import R048_ReactsstrapModel from "./R048_ReactsstrapModel";
 import R049_ReactstrapModal from "./R049_ReactstrapModal";
 import R050_ReactstrapModal from "./R050_ReactstrapModal";
+import R051_ReactstrapPopover from "./R051_ReactstrapPopover";
+import R052_ReactstrapPopover from "./R052_ReactstrapPopover";
+import R053_ReactstrapSpinner from "./R053_ReactstrapSpinner";
+import R054_ReactstrapTable from "./R054_ReactstrapTable";
+import R055_ReactstrapTab from "./R055_ReactstrapTab";
+import R056_Sweetalert2Basic from "./R056_Sweetalert2Basic";
+import R057_Sweetalert2Position from "./R057_Sweetalert2Position";
+import R058_Sweetalert2Confirm from "./R058_Sweetalert2Confirm";
+import R059_FetchGet from "./R059_FetchGet";
+import R060_FetchPost from "./R060_FetchPost";
+import R061_AxiosGet from "./R061_AxiosGet";
+import R062_AxiosPost from "./R062_AxiosPost";
+import R063_CallbackFunc from "./R063_CallbackFunc";
+import R064_Promise from "./R064_Promise";
+import R065_Promise from "./R065_Promise";
 /*
 <R003_ImportComponent></R003_ImportComponent>
 <R004_LifecycleEx></R004_LifecycleEx>
@@ -106,6 +121,21 @@ import R050_ReactstrapModal from "./R050_ReactstrapModal";
 <R047_ReactstraoListGroup></R047_ReactstraoListGroup>
 <R048_ReactsstrapModel></R048_ReactsstrapModel>
 <R049_ReactstrapModal></R049_ReactstrapModal>
+<R050_ReactstrapModal></R050_ReactstrapModal>
+<R051_ReactstrapPopover></R051_ReactstrapPopover>
+<R052_ReactstrapPopover></R052_ReactstrapPopover>
+<R053_ReactstrapSpinner></R053_ReactstrapSpinner>
+<R054_ReactstrapTable></R054_ReactstrapTable>
+<R055_ReactstrapTab></R055_ReactstrapTab>
+<R056_Sweetalert2Basic></R056_Sweetalert2Basic>
+<R057_Sweetalert2Position></R057_Sweetalert2Position>
+<R058_Sweetalert2Confirm></R058_Sweetalert2Confirm>
+<R059_FetchGet></R059_FetchGet>
+<R060_FetchPost></R060_FetchPost>
+<R061_AxiosGet></R061_AxiosGet>
+<R062_AxiosPost></R062_AxiosPost>
+<R063_CallbackFunc></R063_CallbackFunc>
+<R064_Promise></R064_Promise>
 */
 
 function App(){
@@ -113,7 +143,7 @@ function App(){
       <div>
           <h1>Start React 200!</h1>
           <p>CSS 적용하기</p>
-          <R050_ReactstrapModal></R050_ReactstrapModal>
+          <R065_Promise></R065_Promise>
       </div>
   );
 }
