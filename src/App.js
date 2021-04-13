@@ -64,6 +64,12 @@ import R062_AxiosPost from "./R062_AxiosPost";
 import R063_CallbackFunc from "./R063_CallbackFunc";
 import R064_Promise from "./R064_Promise";
 import R065_Promise from "./R065_Promise";
+import R066_Promise from "./R066_Promise";
+import R067_onChanage from "./R067_onChanage";
+import R068_onMouseMove from "./R068_onMouseMove";
+import R069_onMouseOver from "./R069_onMouseOver";
+import R070_onMouseOut from "./R070_onMouseOut";
+
 /*
 <R003_ImportComponent></R003_ImportComponent>
 <R004_LifecycleEx></R004_LifecycleEx>
@@ -136,6 +142,11 @@ import R065_Promise from "./R065_Promise";
 <R062_AxiosPost></R062_AxiosPost>
 <R063_CallbackFunc></R063_CallbackFunc>
 <R064_Promise></R064_Promise>
+<R065_Promise></R065_Promise>
+<R066_Promise></R066_Promise>
+<R067_onChanage></R067_onChanage>
+<R068_onMouseMove></R068_onMouseMove>
+<R069_onMouseOver></R069_onMouseOver>
 */
 
 function App(){
@@ -143,7 +154,7 @@ function App(){
       <div>
           <h1>Start React 200!</h1>
           <p>CSS 적용하기</p>
-          <R065_Promise></R065_Promise>
+          <R070_onMouseOut></R070_onMouseOut>
       </div>
   );
 }
