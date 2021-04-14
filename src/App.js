@@ -69,7 +69,11 @@ import R067_onChanage from "./R067_onChanage";
 import R068_onMouseMove from "./R068_onMouseMove";
 import R069_onMouseOver from "./R069_onMouseOver";
 import R070_onMouseOut from "./R070_onMouseOut";
-
+import R071_OnKey from "./R071_OnKey";
+import R072_onSubmit from "./R072_onSubmit";
+import R073_ReactRef from "./R073_ReactRef";
+import R074_ReactCurrying from "./R074_ReactCurrying";
+import R075_ReactHoc from "./R075_ReactHoc";
 /*
 <R003_ImportComponent></R003_ImportComponent>
 <R004_LifecycleEx></R004_LifecycleEx>
@@ -147,6 +151,11 @@ import R070_onMouseOut from "./R070_onMouseOut";
 <R067_onChanage></R067_onChanage>
 <R068_onMouseMove></R068_onMouseMove>
 <R069_onMouseOver></R069_onMouseOver>
+<R070_onMouseOut></R070_onMouseOut>
+<R071_OnKey></R071_OnKey>
+<R072_onSubmit></R072_onSubmit>
+<R073_ReactRef></R073_ReactRef>
+<R074_ReactCurrying></R074_ReactCurrying>
 */
 
 function App(){
@@ -154,7 +163,7 @@ function App(){
       <div>
           <h1>Start React 200!</h1>
           <p>CSS 적용하기</p>
-          <R070_onMouseOut></R070_onMouseOut>
+          <R075_ReactHoc name='React200'></R075_ReactHoc>
       </div>
   );
 }
