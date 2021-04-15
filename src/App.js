@@ -74,6 +74,9 @@ import R072_onSubmit from "./R072_onSubmit";
 import R073_ReactRef from "./R073_ReactRef";
 import R074_ReactCurrying from "./R074_ReactCurrying";
 import R075_ReactHoc from "./R075_ReactHoc";
+import R076_ContextApi from "./R076_ContextApi";
+import R077_ContextApi from "./R077_ContextApi";
+import StrAddButton from "./StrAddButton";
 /*
 <R003_ImportComponent></R003_ImportComponent>
 <R004_LifecycleEx></R004_LifecycleEx>
@@ -156,16 +159,35 @@ import R075_ReactHoc from "./R075_ReactHoc";
 <R072_onSubmit></R072_onSubmit>
 <R073_ReactRef></R073_ReactRef>
 <R074_ReactCurrying></R074_ReactCurrying>
+<R075_ReactHoc name='React200'></R075_ReactHoc>
+<R076_ContextApi></R076_ContextApi>
+<R077_ContextApi></R077_ContextApi>
 */
-
+/*
 function App(){
   return (
       <div>
           <h1>Start React 200!</h1>
           <p>CSS 적용하기</p>
-          <R075_ReactHoc name='React200'></R075_ReactHoc>
+
       </div>
   );
+}
+
+ */
+
+class App extends Comment{
+
+    render() {
+        return (
+            <div>
+                <h1>Start React 200</h1>
+                <span>{this.props.store.getState().data.str}</span><br/>
+                <StrAddButton store={this.props.store}></StrAddButton>
+            </div>
+        );
+    }
+
 }
 
 export default App;
